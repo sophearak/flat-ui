@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,300,700,500italic,300italic);
+@import "custom/color-scheme";
+@import "custom/top-bar";
+@import "custom/slider";
+@import "custom/feature";
+@import "custom/typo";
+@import "custom/service";
+@import "custom/middle";
+@import "custom/partner";
+@import "custom/bottom";
+
+body {
+    background: #fff;
+    font-family: $font-stack;
+    color: #4e4e4e;
+    line-height: 22px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+*:focus {
+    outline: none !important;
+}
+
+textarea:focus, input:focus{
+    outline: none !important;
+}
+
+a {
+    color: #c52d2f;
+    -webkit-transition: color 300ms, background-color 300ms;
+    -moz-transition: color 300ms, background-color 300ms;
+    -o-transition:  color 300ms, background-color 300ms;
+    transition:  color 300ms, background-color 300ms;
+}
+
+a:hover, a:focus {
+    color: $primary-color;
+}

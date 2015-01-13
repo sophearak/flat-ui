@@ -1,0 +1,35 @@
+/* ======================================================= */
+/* =============================================== service */
+/* ======================================================= */
+
+@import "_color-scheme.scss";
+
+#services {
+    background: #000 url(../images/service/bg_services.jpg);
+    background-size: cover;
+}
+
+#services .lead,
+#services h2{
+    color: #fff;
+}
+
+.services-wrap {
+    padding: 40px 20px;
+    background: #fff;
+    border-radius: 1px;
+    margin: 0 0 40px;
+}
+
+.services-wrap h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.services-wrap .pull-left {
+    margin-right: 10px;
+}
+
+.media-body > p {
+    font-weight: 300;
+}
